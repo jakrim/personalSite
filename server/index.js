@@ -8,7 +8,7 @@ const app = express();
 app.use(parser.json());
 app.use(morgan('dev'));
 
-app.use(express.static(path.join(__dirname, '/dist')));
+app.use('/', express.static(path.join(__dirname, '../dist/')));
 
 const port = 3000;
 
