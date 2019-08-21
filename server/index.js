@@ -1,16 +1,17 @@
 const express = require('express');
 const morgan = require('morgan');
 const parser = require('body-parser');
-const axios = require('axios');
+const path = require('path');
+// const axios = require('axios');
 const app = express();
 
 app.use(parser.json());
 app.use(morgan('dev'));
 
-// app.use(express.static(__dirname + ))
+app.use(express.static(path.join(__dirname, '/dist')));
 
 const port = 3000;
 
 app.listen(port, () => {
-  console.log(`Listening on ${PORT}`);
+  console.log(`Listening on ${port}`);
 });
