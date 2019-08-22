@@ -4,9 +4,9 @@ const Navbar = () => (
   <div>
     <nav>
       <ul className='navbar'>
-        <h1 className='title'>Welcome to the Checkout Page</h1>
+        <h1 className='title'>Jesse Krim</h1>
         <li>
-          <a href='#'> Step 1</a>
+          <a href='#'> Jilli</a>
         </li>
         <li>
           <a href='#'> Step 2</a>
