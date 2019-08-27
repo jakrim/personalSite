@@ -14,7 +14,22 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        <div className='box' />
+
+        <div className='intro'>
+          <p>Here's a small intro section with image of myself on the right</p>
+        </div>
+        <div className='contact'>
+          <p>Above the fold contact section (need to google how) </p>
+        </div>
+        <div className='resume'>
+          <p>
+            Here's a intro resume section with skills, interests, companies I've
+            worked for
+          </p>
+        </div>
+        <div className='resume'>
+          <p>Here's a intro portfolio/projects worked on section</p>
+        </div>
       </div>
     );
   }
