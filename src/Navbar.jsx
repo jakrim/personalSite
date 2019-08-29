@@ -8,14 +8,14 @@ const Navbar = () => (
         <img src={logo} alt='Logo' className='logo' />
 
         <h1 className='title'>Jesse Krim</h1>
-        <li>
-          <a href='#'> Jilli</a>
+        <li className='navigation-item'>
+          <a href='#'>About Me</a>
         </li>
-        <li>
-          <a href='#'> Step 2</a>
+        <li className='navigation-item'>
+          <a href='#'>Portfolio</a>
         </li>
-        <li>
-          <a href='#'> Step 3</a>
+        <li className='navigation-item'>
+          <a href='#'>Contact Me</a>
         </li>
       </ul>
     </nav>

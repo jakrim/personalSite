@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './Navbar.jsx';
+import faceShot from '../server/public/face-shot.jpg';
 import './styles.less';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
 
         <div className='intro'>
           <p>Here's a small intro section with image of myself on the right</p>
+          <img src={faceShot} alt='profile picture' className='faceShot' />
         </div>
         <div className='contact'>
           <p>Above the fold contact section (need to google how) </p>
