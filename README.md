@@ -1,6 +1,4 @@
-# empty-project
-
-Empty project.
+# Code for my personal website
 
 ## Building and running on localhost
 
@@ -10,7 +8,7 @@ First install dependencies:
 npm install
 ```
 
-To run in hot module reloading mode:
+To run in nodemon:
 
 ```sh
 npm start
@@ -22,7 +20,7 @@ To create a production build:
 npm run build-prod
 ```
 
-To create a development build:
+To create a development build with webpack watching files:
 
 ```sh
 npm run build-dev
@@ -35,3 +33,4 @@ Open the file `dist/index.html` in your browser
 ## Credits
 
 Made with [createapp.dev](https://createapp.dev/)
+To assist in the webpack build
