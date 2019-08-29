@@ -7,49 +7,104 @@
 @navbar-color: #ccc;
 
 body {
-  /* color: black; */
+  margin: 0;
   background-color: white;
+  grid-template-rows: 30px 60px auto auto auto auto 60px;
+  grid-template-areas: "social-nav""navbar""intro""contact""resume""portfolio""footer";
+}
+
+.social-nav {
+  grid-area: social-nav;
+  background: #1dd69b;
+
+  .socialChannels {
+    a {
+      color: black;
+    }
+  }
 }
 
 .navbar {
-  width: 100%;
-  float: right;
-  margin: 0, 0, 3em, 0;
-  padding: 0;
-  list-style: none;
-  background-color: #f2f2f2;
-  border-bottom: 1px solid @navbar-color;
-  border-top: 1px solid @navbar-color;
+  grid-area: navbar;
+  background: #1dacd6;
+}
 
-  li a {
-    font-size: 20px;
-    display: block;
-    float: left;
-    padding: 8px 35px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #069;
-    border-right: 1px solid @navbar-color;
+.intro {
+  grid-area: intro;
+  display: grid;
+  grid-template-columns: auto 30%;
+  grid-template-areas: 'picture';
+  background: #F6640C;
+
+
+  aside {
+    grid-area: 'picture';
+    background: #ccc;
   }
 }
+
+.contact {
+  grid-area: contact;
+  background: #eee;
+}
+
+.resume {
+  grid-area: resume;
+  background: #ccc;
+}
+
+.portfolio {
+  grid-area: portfolio;
+  background: #F6640C;
+}
+
+.footer {
+  grid-area: footer;
+  background: black;
+  color: white;
+
+
+}
+
+.logo {
+  width: 50px;
+}
+
+.faceShot {
+  width: 100px;
+}
+
+
+// .navbar {
+//   margin: 0;
+//   display: grid;
+
+// }
+
+// .navbar {
+// width: 100%;
+// float: right;
+// margin: 0, 0, 3em, 0;
+// padding: 0;
+// list-style: none;
+// background-color: #f2f2f2;
+// border-bottom: 1px solid @navbar-color;
+// border-top: 1px solid @navbar-color;
+
+// li a {
+//   font-size: 20px;
+//   display: block;
+//   float: left;
+//   padding: 8px 35px;
+//   text-decoration: none;
+//   font-weight: bold;
+//   color: #069;
+//   border-right: 1px solid @navbar-color;
+// }
+// }
 
 /* .navbar h1 {
   padding-top: 50px;
   text-align: center
   float: inline-start;
 } */
-
-.box {
-  border: 1px;
-  color: black;
-}
-
-.logo {
-  width: 50px;
-
-
-}
-
-.faceShot {
-  width: 100px;
-}

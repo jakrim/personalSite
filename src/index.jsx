@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './Navbar.jsx';
+import SocialNav from './SocialNav.jsx';
 import faceShot from '../server/public/face-shot.jpg';
 import './styles.less';
 
@@ -14,11 +15,14 @@ class App extends Component {
   render() {
     return (
       <div>
+        <SocialNav />
         <Navbar />
-
         <div className='intro'>
-          <p>Here's a small intro section with image of myself on the right</p>
-          <img src={faceShot} alt='profile picture' className='faceShot' />
+          <aside>
+            <img src={faceShot} alt='profile picture' className='faceShot' />
+            <p>Full Stack Javascript Developer in New York City/New Jersey</p>
+          </aside>
+          <p>Here's a short professional bio with my image on the right</p>
         </div>
         <div className='contact'>
           <p>Above the fold contact section (need to google how) </p>
@@ -29,8 +33,12 @@ class App extends Component {
             worked for
           </p>
         </div>
-        <div className='resume'>
+        <div className='portfolio'>
           <p>Here's a intro portfolio/projects worked on section</p>
+        </div>
+        <div className='footer'>
+          <p>Here's a a footer</p>
+          <SocialNav />
         </div>
       </div>
     );
