@@ -32,6 +32,7 @@ class App extends Component {
             Here's a intro resume section with skills, interests, companies I've
             worked for
           </p>
+          <p>Just testing Git</p>
         </div>
         <div className='portfolio'>
           <p>Here's a intro portfolio/projects worked on section</p>
