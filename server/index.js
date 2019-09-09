@@ -10,8 +10,8 @@ app.use(morgan('dev'));
 
 app.use('/', express.static(path.join(__dirname, '../dist/')));
 
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
-app.listen(port, () => {
-  console.log(`Listening on ${port}`);
+app.listen(PORT, () => {
+  console.log(`Listening on ${PORT}`);
 });
