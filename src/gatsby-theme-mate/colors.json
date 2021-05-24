@@ -1,0 +1,16 @@
+{
+  "text": "#333333",
+  "background": "#FFFFFF",
+  "muted": "#F6640B",
+  "primary": "#ADAEB2",
+  "textHeader": "000",
+  "secondary": "#1dacd6",
+  "backgroundDark": "#f0e6f6",
+
+  "primaryLight": "#ae66df",
+  "primaryDark": "#4b007d",
+
+  "secondaryLight": "#ff79b0",
+  "secondaryDark": "#c60055",
+  "black": "#000"
+}
