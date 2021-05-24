@@ -43,6 +43,7 @@ At the same time, as this portfolio is written with Gatsby is extremely easy to 
 
 ## How to start ▶️
 
+`
 As this process needs more steps compared to other starters, I decided to made a tutorial video of how to set up your own instance of Mate. You can follow the video or jump directly to the written documentation.
 
 <p align="center">
@@ -218,12 +219,12 @@ Therefore not all the icons inside FA are loaded by default. In case you want to
 import {
   faMedium,
   faTwitter,
-  faGithub,
+  faGithub
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faGlobe,
   faEnvelope,
-  faCoffee,
+  faCoffee
 } from '@fortawesome/free-solid-svg-icons';
 
 export const ICONS = [
@@ -232,7 +233,7 @@ export const ICONS = [
   faGithub,
   faGlobe,
   faEnvelope,
-  faCoffee,
+  faCoffee
 ];
 ```
 
