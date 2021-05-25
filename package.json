@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-mate",
-  "version": "0.0.0",
-  "description": "Gatsby v2 starter to create a top notch portfolio!",
+  "version": "1.0.0",
+  "description": "Gatsby theme used for a portfolio website using Theme Shadowing",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -20,7 +20,7 @@
     "PWA",
     "portfolio"
   ],
-  "author": "Ema Suriano",
+  "author": "Jesse Krim",
   "bugs": {
     "url": "https://github.com/EmaSuriano/gatsby-starter-mate/issues"
   },
