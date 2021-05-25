@@ -1,5 +1,6 @@
 const assert = require('assert');
 const colors = require('./src/colors.json');
+// import icon from '../components/Logo/icon.png'
 
 module.exports = ({
   accessToken,
@@ -22,8 +23,8 @@ module.exports = ({
       {
         resolve: 'gatsby-plugin-manifest',
         options: {
-          name: 'Mate Portfolio',
-          short_name: 'Mate',
+          name: 'Jesse Krim Portfolio',
+          short_name: 'Jesse Krim',
           start_url: landingPath,
           background_color: colors.background,
           theme_color: colors.primary,

@@ -4,7 +4,7 @@ import { Helmet as ReactHelmet } from 'react-helmet';
 import { withTheme } from 'styled-components';
 import { Theme } from 'gatsby-theme-mate/src/types';
 import { useHelmetQuery } from 'gatsby-theme-mate/src/queries/useHelmetQuery';
-// import icon from '../components/Logo/icon.png';
+// import icon from '../components/Logo/icon.png'
 
 type Props = {
   theme: Theme;
