@@ -28,9 +28,9 @@
   "dependencies": {
     "@rebass/preset": "^4.0.5",
     "dotenv": "^8.2.0",
-    "gatsby": "^2.32.12",
+    "gatsby": "^5.5.0",
     "gatsby-plugin-google-analytics": "^2.11.0",
-    "gatsby-theme-mate": "^1.0.0",
+    "gatsby-theme-mate": "^1.4.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "sharp": "^0.26.3"
